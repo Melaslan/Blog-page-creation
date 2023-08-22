@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: pink;
+}
+.header{
+    background-color: pink;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content:center ;
+
+}
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding: 14px 20px ;
+}
+.navbar a:hover{
+    background-color:whitesmoke ;
+    color: black;
+}
+.card{
+    padding:20px;
+    margin-top:10px;
+    background-color:antiquewhite;
+}
+.content{
+    padding-left: 40px ;
+    padding-right:40px ;
+}
+.sidebar{
+    padding-left: 40px;
+    padding-right: 40px;
+}
